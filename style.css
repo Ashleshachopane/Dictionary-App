@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    text-align: center;
+    color: white;
+}
+
+.game-container {
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 80%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+#feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#timer, #score {
+    font-size: 18px;
+    margin: 10px 0;
+}
